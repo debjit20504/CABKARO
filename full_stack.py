@@ -7,11 +7,7 @@ user_id = st.text_input("User ID")
 user_name = st.text_input("Name")
 user_phone = st.number_input('Phone no', step = 1)
 
-con = connector.connect(host='localhost',
-							 port='3306',
-							 user='root',
-							 password='Pramanik@12',
-							 database='pythontest')
+con = connector.connect(host='localhost', port='3306',user='root',password='Pramanik@12',database='pythontest')
 # query = 'create table if not exists user(userId int primary key,userName varchar(200), phone varchar(12))'
 # cur = con.cursor()
 # cur.execute(query)
