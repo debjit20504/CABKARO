@@ -1,0 +1,5 @@
+hydralit
+streamlit
+pandas
+streamlit_lottie
+mysql.connector
