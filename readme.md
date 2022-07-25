@@ -11,18 +11,17 @@ Your computer must have Python installed
 
 Now as you have installled python lets move forward
 
-1. Have git or github desktop installed in your computer.
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/debjit20504/CABKARO.git
    ```
-3. Install requirement file
+2. Install requirement file
    ```sh
    python -m pip install -r requirements.txt
    ```
-4. Run the webapp
+3. Run the webapp
    ```py
     python -m streamlit run cabkaro.py
    ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
